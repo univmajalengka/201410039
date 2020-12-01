@@ -3,11 +3,11 @@ using namespace std;
 int main()
 {
 	int j,m,d,td;
-	cout<<"Masukan Jam : ";
+	cout<<"Masukkan Jam : ";
 	cin>>j;
-	cout<<"Masukan Menit : ";
+	cout<<"Masukkan Menit : ";
 	cin>>m;
-	cout<<"Masukan Detik : ";
+	cout<<"Masukkan Detik : ";
 	cin>>d;
 	td=(j*3600)+(m*60)+d;
 	cout<<"Total Detik : "<<td;
